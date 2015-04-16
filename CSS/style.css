@@ -34,8 +34,28 @@
 
 .introduction{
 	background-image: url('../image/splashImage.jpg');
-	background-position: center bottom;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100% 100%;
 	height: 50rem;
+}
+
+.introduction .intro-content h1{
+	font-size: 3.125rem;
+	padding-top: 15rem;
+}
+
+.introduction .intro-content h3{
+	margin-top: 1.25rem;
+	margin-bottom: 1.25rem;
+	font-size: 1.563rem;
+}
+
+.introduction > .intro-content{
+	color: #fff;
+	width: 864px;
+	height: 173px;
+	text-align: center;
+	font-weight: 300;
+	margin: 0 auto;
+
 }
