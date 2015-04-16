@@ -1,0 +1,41 @@
+
+.top-navigation{
+	background-color: #fff;
+
+}
+
+.top-navigation > .content{
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+.top-navigation .links {
+	float: right;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	margin-top: 25px;
+	color: #838994;
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
+}
+
+.top-navigation .links li{
+	display: inline-block;
+	margin-left: 25px;
+	text-decoration: none;
+
+}
+
+.top-navigation .links li:hover{
+	cursor: pointer;
+	color: #333333;
+}
+
+.introduction{
+	background-image: url('../image/splashImage.jpg');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 50rem;
+}
