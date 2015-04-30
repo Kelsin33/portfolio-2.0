@@ -69,3 +69,31 @@ a:visited{
 	text-decoration: none;
 	display: inline-block;
 }
+
+.about{
+
+	background-color: #C2A08E;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.about a{
+	color:#000000;
+}
+
+.about .about-content img{
+	padding-right: 2rem;
+}
+.about h3{
+	margin-top: 1.25rem;
+	margin-bottom: 1.25rem;
+	font-size: 1.56rem;
+	text-align: left;
+}
+.about .about-content{
+	padding-top: 05rem;
+	width: 550px;
+	height: 750px;
+	font-weight: 200;
+	text-align: center;
+	margin: 0 auto;
+}
